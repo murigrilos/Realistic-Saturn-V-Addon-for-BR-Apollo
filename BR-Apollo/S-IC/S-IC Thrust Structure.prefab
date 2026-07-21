@@ -4330,7 +4330,7 @@ MonoBehaviour:
       input: 0
     y:
       variables: {fileID: 6025496177165280511}
-      input: -20
+      input: -79.7415
   thrustPosition:
     variables: {fileID: 6025496177165280511}
     x:
@@ -4341,7 +4341,7 @@ MonoBehaviour:
       input: 0
   wetMass:
     variables: {fileID: 6025496177165280511}
-    input: 1
+    input: 0.75944
   dryMassPercent:
     variables: {fileID: 6025496177165280511}
     input: 0.1
@@ -5502,7 +5502,7 @@ MonoBehaviour:
       input: 0
     y:
       variables: {fileID: 6025496177165280511}
-      input: -20
+      input: -79.7415
   thrustPosition:
     variables: {fileID: 6025496177165280511}
     x:
@@ -5513,7 +5513,7 @@ MonoBehaviour:
       input: 0
   wetMass:
     variables: {fileID: 6025496177165280511}
-    input: 1
+    input: 0.75944
   dryMassPercent:
     variables: {fileID: 6025496177165280511}
     input: 0.1
@@ -6645,7 +6645,7 @@ MonoBehaviour:
       input: 0
     y:
       variables: {fileID: 6025496177165280511}
-      input: -20
+      input: --79.7415
   thrustPosition:
     variables: {fileID: 6025496177165280511}
     x:
@@ -6656,7 +6656,7 @@ MonoBehaviour:
       input: 0
   wetMass:
     variables: {fileID: 6025496177165280511}
-    input: 1
+    input: 0.75944
   dryMassPercent:
     variables: {fileID: 6025496177165280511}
     input: 0.1
@@ -7645,7 +7645,7 @@ MonoBehaviour:
       input: 0
     y:
       variables: {fileID: 6025496177165280511}
-      input: -20
+      input: -79.7415
   thrustPosition:
     variables: {fileID: 6025496177165280511}
     x:
@@ -7656,7 +7656,7 @@ MonoBehaviour:
       input: 0
   wetMass:
     variables: {fileID: 6025496177165280511}
-    input: 1
+    input: 0.75944
   dryMassPercent:
     variables: {fileID: 6025496177165280511}
     input: 0.1
