@@ -10910,7 +10910,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust:
     variables: {fileID: 6287457034714228805}
-    input: 230
+    input: 104.3
   thrustNormal:
     variables: {fileID: 6287457034714228805}
     x:
@@ -10921,7 +10921,7 @@ MonoBehaviour:
       input: 1
   ISP:
     variables: {fileID: 6287457034714228805}
-    input: 130
+    input: 425
   thrustPosition:
     variables: {fileID: 6287457034714228805}
     x:
@@ -10950,7 +10950,7 @@ MonoBehaviour:
     referenceToVariables: {fileID: 6287457034714228805}
     localValue: 0
   heatHolder: {fileID: 3092264008158961400}
-  oldMass: 6
+  oldMass: 1.59
 --- !u!114 &9153463731116581605
 MonoBehaviour:
   m_ObjectHideFlags: 0
