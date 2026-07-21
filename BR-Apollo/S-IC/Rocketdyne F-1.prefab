@@ -8577,7 +8577,7 @@ MonoBehaviour:
     referenceToVariables: {fileID: 4125211162013701134}
     localValue: 0
   heatHolder: {fileID: 6047835000289864994}
-  oldMass: 8.45
+  oldMass: 14.0833
 --- !u!114 &1259208727223967406
 MonoBehaviour:
   m_ObjectHideFlags: 0
