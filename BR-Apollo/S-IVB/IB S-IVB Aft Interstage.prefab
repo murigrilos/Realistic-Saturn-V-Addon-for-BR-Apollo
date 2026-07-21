@@ -1328,7 +1328,7 @@ MonoBehaviour:
       input: 0
     y:
       variables: {fileID: 128775577033961292}
-      input: -20
+      input: -34.0194
   thrustPosition:
     variables: {fileID: 128775577033961292}
     x:
@@ -1920,7 +1920,7 @@ MonoBehaviour:
       input: 0
     y:
       variables: {fileID: 128775577033961292}
-      input: -20
+      input: -34.0194
   thrustPosition:
     variables: {fileID: 128775577033961292}
     x:

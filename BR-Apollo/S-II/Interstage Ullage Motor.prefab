@@ -949,7 +949,7 @@ MonoBehaviour:
       input: 0
     y:
       variables: {fileID: 6025496177165280511}
-      input: 50
+      input: 9.52544
   thrustPosition:
     variables: {fileID: 6025496177165280511}
     x:
