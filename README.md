@@ -1,101 +1,17 @@
+Patched the Saturn V parts for real-world values: hopefully works on realistic mode.
 
-   __ )    _ \             \                   |  |        
-   __ \   |   |           _ \    __ \    _ \   |  |   _ \  
-   |   |  __ <   ____|   ___ \   |   |  (   |  |  |  (   | 
-  ____/  _| \_\        _/    _\   __/  \___/  _| _| \___/  v1.2
-                                _|                         
-Made on Earth, by Brioche
-If ASCII art is broken, download file & open in notepad x
---------------------------------------------------------------------
-██████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-█████████████████░░░░░░░░░░░░░░░░░█████████████████░░░░░░░░░░░░░░░░░
+IMPORTANT:
+If an engine is used 5 times IRL but 3 times in SFS because it is 2D, I DID NOT ACCOUNT FOR THAT.
 
-▛▚ Thanks for downloading! ▛▚
+I DO NOT KNOW HOW TO USE THE DENSITY PARAMETER, so all of them containing it HAVE BEEN SKIPPED.
+Here are the ones that have been skipped and the desired values:
 
-If you're reading this, you're one out of a rough personal estimate of 3 and a half people that will open this file.
-This is BR-Apollo, my passion project for over two years now. This started as a (very) short-lived custom texture pack attempt, but has grown into something bigger than I could ever have imagined.
+BR-Apollo/S-II/S-II Aft Interstage.prefab, target mass is 5.2896 t.
 
-▛▚ Installation instructions ▛▚
+BR-Apollo/S-II/S-II Fuel Tank.prefab, BR-Apollo/S-II/S-II Engine Mount.prefab. The Density and dryMassPercent values should be tweaked, so that the S-II, including five (should be three but 1.) J-2 engines but excluding the S-IC/S-II aft interstage, reaches a Wet mass of 484.9423 t, a Dry mass of 38.3738 t, and a propellant mass of 446.5685 t.
 
-Download the file with the .pack extension from the BR-Apollo Github releases tab. Open your SFS game, navigate to the Modloader menu, click "Open Mods Folder." Once your file explorer opens, go through Custom Assets -> Parts, and drag in the .pack file. Relaunch the game, and BR-Apollo will be installed.
+BR-Apollo/S-IVB/S-IVB Aft Interstage.prefab, the target mass of the complete interstage is 3.6655 t.
 
+BR-Apollo/S-IVB/S-IVB Fuel Tank Series 500.prefab, BR-Apollo/S-IVB/S-IVB Engine Mount Series 500.prefab. The desired masses of the assembled Saturn V S-IVB, including the J-2 but excluding the aft interstage and instrument unit, are Wet mass: 117.6334 t, Dry mass: 11.4759 t, and Propellant mass: 106.1575 t
 
-▛▚ USAGE GUIDELINES ▛▚
-
-	Posting BR-Apollo online:
-
-		I Highly doubt anybody will end up reading this, much less follow it, but here's what I would like to be included if you decide to make a post featuring my mod.
-
-		Youtube:
-		Please add link to my channel, the jmnet forum post, and the github repo. 
-		Adding a link to the discord server would also be pretty cool, but that's a lot of links, you don't have to do that.
-		Also, please mention my channel so I get a notification, I would love to watch!
-
-		Instagram/Reddit:
-		In the title/somewhere visible, put BR-Apollo mod by @briocheandthejets or u/BriocheRockets so I get to see the post!
-
-		Discord:
-		Just put my username and the name of the mod :)
-
-		That being said, I don't really care too much what you put. If I see it, I'm just happy someone enjoyed my work.
-
-	Creating an addon pack for BR-Apollo:
-
-		Seeing as Eyes Turned Skyward and For All Mankind material will never be added to BR-Apollo, it's possible someone would want to create a ETS/FAM addon mod.
-		If that person happens to be you, by all means, go ahead. Source code & prefabs are all open-source, so feel free to download them and take 'em apart.
-		If you publish an addon mod, please follow this naming convention: "<mod name> - Addon for BR-Apollo"
-
-
-	Stuff I just don't want to see done with my mod:
-
-		Recreating tragedies, e.g. Apollo 1 pad fire. Just don't do this, please.
-		The stack is recreatable with the Block 1 CSM parts and the Saturn IB, and is even showcased in the trailer for 1.1.
-		This however, is, and should ONLY be used, to honor the mission that should have flown and NOT to recreate what eventually transpired at Pad 34.
-
-	Do not use the source code whenever I push backups to download unreleased parts and release them. Not cool.
-
-▛▚ Dorg ▛▚
-	dorg.png is a picture of my dog that takes up exactly 32 kilobytes, the exact amount of data it would take to max out Saturn V instrument unit. Do with that what you will.
-
-▛▚ Credits ▛▚
-	Raw LM mylar texture courtesy of unnamed_shadow1
-	LES custom behavior courtesy of dani0105 https://github.com/105-Code/basp-modules
-
-▒
-▒      /\
-▒      ▒▒
-▒
-▒     |  |
-▒     ████
-▒     |
-▒     |
-▒     ░░░░             /\
-▒    /  ██\            ▒▒
-▒    ░░░░░░                            /\
-▒    :   :            |  |             ▒▒
-▒    :   :            ████             
-▒                     |               /  \
-▒    ██████           |                   
-▒    █░░██░           ████            ████
-▒    █░░██░           █ █             █ █ 
-▒                     ====            ====
-▒    =  "=            █ █░            █ █░
-▒                     █ █░            █ █░
-▒    ░░░░░░           █ █░            █ █░
-▒    █  ██            █ █░            █ █░
-▒    █  ██          ,<█ █░>,       .-=█ █░=-.
-▒   /█░░██░\       |>|_█_█|<|      |_|_█_█|_|
-▒    /\/\/\           ^^^^            ^^^^
-▒
-▒
-▒
-▒████  ████     ████  ████  █████ ██    ██    █████
-▒██  █ ██  █    ██  █ ██  █ ██  █ ██    ██    ██  █
-▒████  ████  ██ █████ █████ ██  █ ██    ██    ██  █
-▒██  █ ██  █    ██  █ ██    ██  █ ██    ██    ██  █
-▒█████ ██  █    ██  █ ██    █████ █████ █████ █████
-▒
-▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
-
-
-made with love by brioche. thank you everyone
+If you find any issues, please contact me. If you can and have the patience though, you could try fixing them.
