@@ -1140,7 +1140,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   polygonModule: {fileID: 8204068902734248319}
-  density: 2.5
+  density: 1.37768656
   mass:
     variableName: mass_wet
     referenceToVariables: {fileID: 6025496177165280511}
@@ -5040,7 +5040,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   polygonModule: {fileID: 1002065117224973788}
-  density: 2.5
+  density: 1.37768656
   mass:
     variableName: mass_wet
     referenceToVariables: {fileID: 6025496177165280511}
