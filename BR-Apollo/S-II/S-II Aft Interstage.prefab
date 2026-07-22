@@ -2233,7 +2233,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   polygonModule: {fileID: 2855167266688810552}
-  density: 0.05
+  density: 0.0961745
   mass:
     variableName: mass
     referenceToVariables: {fileID: 128775577033961292}
